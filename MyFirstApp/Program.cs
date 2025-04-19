@@ -8,6 +8,8 @@ Console.WriteLine("Enter your name"); // Output
 // string - sõne
 string userName = Console.ReadLine(); // Input
 
+Console.WriteLine("Hello" + ", " + userName + "!");
+
 Console.WriteLine($"Hello, {userName} !"); // Output
 // string interpolation
 // alt gr 7 "{", alt gr 0 "}"
